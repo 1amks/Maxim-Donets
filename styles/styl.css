@@ -35,7 +35,7 @@
 }
 /* Кнопка */
 .btn {
-    width: 111px;
+    width: 106px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     background-color: #FF7FAA;
@@ -60,7 +60,6 @@ color: #333;
     display: flex;
 }
 .square {
-
     right: 0;
     display: flex;
     width: 500px;
@@ -76,6 +75,7 @@ color: #333;
 }
 
 .burger_btn {
+    margin: 9px 420px 0px ;
     position: absolute;
     width: 40px;
     height: 40px;
@@ -130,6 +130,85 @@ color: #333;
 .menu_link {
     font-size: 16px;
 }
+.line:after {
+    content: "";
+    margin: 70px auto 0;
+    display: block;
+    width: 250px;
+    height: 2px;
+    background-color: #8C759F;
+}
+.section {
+    display: flex;
+    width: 1270px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.about {
+    justify-content: space-between;
+    flex-wrap:wrap;
+    display: flex;
+    
+}
+.section_about {
+    order:-1;
+    width: 497px;
+    height: 529px;
+    border: 3px solid #8C759F;
+    padding: 5px;
+}
+.section_about2 {
+    align-items:end;
+    width: 497px;
+    height: 529px;
+    margin-top: -250px;
+    border: 3px solid #8C759F;
+    padding: 5px;
+}
+.section_about3 {
+    width: 415px;
+    margin: -8px 213px 0px 0px;
+}
+.section_suptitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 250;
+    opacity: 0.8;
+}
+.section_title{
+    font-size: 40px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 250;
+}
+.section_text {
+    width: 429px;
+    height: 123px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 250;
+    opacity: 0.9;
+    line-height: 25px;
+}
+.section_text2 {
+    width: 478px;
+    margin: 40px 0px 0px 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 250;
+    opacity: 0.9;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
 @media (max-width: 1920px) {
     .right.burger_btn {
         display: block;
@@ -156,3 +235,4 @@ color: #333;
         visibility: visible;
     }
 }
+*/
