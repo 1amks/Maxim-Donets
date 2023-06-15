@@ -2,7 +2,10 @@
     margin-top: 149px;
     margin-bottom: 200px;
 }
-
+.btn_more:hover {
+    transition-duration: .3s;
+    color: #FF7FAA;
+}
 .why__content{
     display: flex;
     justify-content: center;
@@ -53,6 +56,7 @@
 }
 
 .why__text>.subtitle{
+    display: flex;
     margin-bottom: 30px;
 }
 

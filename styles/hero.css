@@ -35,8 +35,13 @@
     color: #fff;
     padding: 20px 35px 20px 35px;
     background: #FF82B3;
-    border-radius: 50px;
+    border-radius: 20px;
     margin-right: 21px;
+}
+.btn_pink:hover {
+    transform: 2s;
+    text-shadow: #000000;
+    border: ;
 }
 
 .hero__img>img{

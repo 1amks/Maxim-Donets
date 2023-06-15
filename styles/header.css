@@ -38,6 +38,7 @@
 }
 
 .nav__list>li>a:hover{
+    transition-duration: .1s;
     color: #FF7FAA;
     border-bottom: #FF7FAA 3px solid;
 }

@@ -31,13 +31,15 @@
     transform: rotate(135deg); 
 }
 .arrow {
-    width: 30px;
-    height: 30px;
+    width: 12px;
+    height: 12px;
     border-top: 3px solid #000;
     border-right: 3px solid #000;
 }
 
 .arrow-top {
+    width: 12px;
+    height: 12px;
     transform: rotate(-45deg); 
 }
 
@@ -46,8 +48,8 @@
         width: 500px;
     }
     .arrow {
-        width: 25px;
-        height: 20px;
+        width: 12px;
+        height: 12px;
     }
 }
 
@@ -65,6 +67,5 @@
     }
     .arrow {
         margin-top: 20px;
-        height: 25px;
     }
 }

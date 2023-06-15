@@ -45,6 +45,7 @@ a{
 }
 
 .title_pink{
+    cursor: pointer;
     color: #FF7FAA;
 }
 

@@ -1,3 +1,6 @@
+ul {
+    cursor: pointer;
+}
 .price{
     margin-top: 144px;
 }
@@ -23,7 +26,6 @@
 }
 
 .price__services{
-
 }
 
 .services__nav{
